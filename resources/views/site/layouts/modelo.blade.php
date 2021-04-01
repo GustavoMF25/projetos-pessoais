@@ -13,14 +13,16 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
     <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('css/site/default.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/dist/css/adminlte.min.css') }}">
+
 </head>
 
 <body class="hold-transition layout-top-nav">
     <div class="wrapper">
 
         @include('site.layouts._partials.navbar') {{-- Include do menu do TOPO --}}
-
+        
         <div class="content-wrapper">
             @yield('conteudo')
             {{-- CONTEUDO CONTIDO NA VIEW --}}

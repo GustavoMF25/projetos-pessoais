@@ -29,7 +29,7 @@
         <textarea id="inputMessage" name="mensagem" class="form-control" rows="4"></textarea>
     </div>
     <div class="form-group">
-        <input type="submit" class="btn btn-{{ isset($color_button) ? $color_button : 'secondary' }}"
+        <input type="submit" class="btn btn-{{ isset($color_button) ? $color_button : 'primary' }}"
             value="Enviar mensagem">
     </div>
 </form>

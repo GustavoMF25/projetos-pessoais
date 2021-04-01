@@ -19,7 +19,7 @@ class CreateProdutosTable extends Migration
             $table->text('descricao')->nullable();
             $table->integer('peso')->nullable();
             $table->float('precovenda', 8, 2)->default(0.01);
-            $table->integer('estooquemin')->default(1);
+            $table->integer('estoquemin')->default(1);
             $table->integer('estoquemax')->default(1);
             $table->timestamps();
         });
