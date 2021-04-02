@@ -26,8 +26,8 @@
         <div class="container">
 
 
-            <div class="card">
-                <div class="card-body row">
+            
+                <div class="row">
                     <div class="col-5 text-center d-flex align-items-center justify-content-center">
 
                         <div class="">
@@ -39,6 +39,7 @@
 
                         {{-- COMPONENTE FORMULARIO - CONTATO --}}
                         @component('site.layouts._components.form_contato', ['color_button' => 'primary'])
+                        <h2>Contato</h2>
                             <p>A nossa equipe analisará a sua mensagem e retornaremos o mais brevemente possível.</p>
                             <p>Nosso tempo de resposta é de 48 horas</p>
                         @endcomponent
@@ -47,7 +48,7 @@
 
                     </div>
                 </div>
-            </div>
+
             <!-- /.container-fluid -->
         </div>
     </div>

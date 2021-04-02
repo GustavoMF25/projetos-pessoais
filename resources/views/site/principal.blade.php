@@ -48,13 +48,14 @@
             </div>
         </section>
 
-        <section>
+        <section class="bg-secondary">
             <div class="row">
                 <div class="col-5 text-center d-flex align-items-center justify-content-center">
 
                     <div class="">
                         <h2><strong>Contato</strong></h2>
-                        <img class="img-fluid" src=" {{ asset('img/ssg.png') }}" alt="">
+                        <img class="img-fluid" src=" {{ asset('img/logo-icon.png') }}" alt="">
+                        <h1 class="text-uppercase"><strong>Sistema de Super Gestão</strong></h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
