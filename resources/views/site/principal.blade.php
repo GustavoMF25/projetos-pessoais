@@ -51,7 +51,7 @@
         <section class="bg-secondary">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 text-center d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 col-sm-12 text-center d-flex align-items-center justify-content-center">
                         <div>
                             <h2><strong>Contato</strong></h2>
                             <img class="img-fluid" src=" {{ asset('img/logo-icon.png') }}" alt="">
